@@ -1,0 +1,11 @@
+iframe{
+    float:  right;
+    width:50%;
+    min-height: auto;
+}
+h2{
+    font-size:larger;
+}
+h2 > i{
+    font-size: larger;
+}

@@ -1,0 +1,153 @@
+body {
+    padding: 0px;
+    margin: 0px;  
+  }
+  .container{
+      max-width: 1000px center;
+      margin:0 auto;
+  }   
+  .container>header{
+      background-image: url('img/home5.png');
+      background-size:100% 100%;
+      height:0px;
+      padding-bottom:25%;
+      width: 100%;
+  }
+  .container>nav {
+   line-height:40px;
+   background-color:dodgerblue;
+   color:white;
+   text-align:center;
+   font-variant:small-caps;
+  }
+  .container>article{
+      min-height:400px;
+      width:100%;
+      background-color:white;
+      float:left;
+  }
+  .container>footer{
+      border-top:5px double dodgerblue;
+      line-height:50px;
+      background-color:lightcyan;
+      text-align:center;
+      font-variant:small-caps;
+      clear:both;
+  }
+  .container>nav>a{
+      color:white;
+      text-decoration:none;
+      margin:0 10px;
+  }
+  .container>nav>a:hover{
+      color: yellow;
+      text-decoration: underline;
+  }
+  iframe[name=page]{
+      width: 100%;
+      min-height: 400px;
+  }
+  .vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('img/home3.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted darkblue;
+    color: darkblue;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url('img/home4.jpg') no-repeat 10px center ;
+    border-bottom: 1px dotted white;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: dodgerblue;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.clearfix{
+    visibility: visible;
+    clear: both;
+}
+.float-right{
+    float: right;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius:30px;
+    box-shadow: 0 0 15px #FFF;
+    padding-left:10px;
+    background-color: dodgerblue;
+}
+article{
+    width: 100%;
+    height: 100%;
+}
